@@ -4,6 +4,11 @@ footer {
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
+footer {
+	margin-top: 100px;
+	padding: 40px 20px 0 20px;
+}
+
 footer section {
 	display: flex;
 }
@@ -11,13 +16,36 @@ footer section {
 footer section div {
 	width: 33%;
 	min-height: 230px;
+	margin: auto;
+	padding-bottom: 20px;
+	color: white;
+
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+footer section div:nth-child(1) caption {
+	width: 200px;
 }
 
 footer h3 {
 	color: white;
+	padding: 5px 0;
 	min-height: 20px;
 	font-weight: normal;
 	font-size: 12px;
 	letter-spacing: 1.6px;
 	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	footer section {
+		display: grid;
+	}
+
+	footer section div {
+		width: 100%;
+	}
+
 }

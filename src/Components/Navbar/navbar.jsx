@@ -5,9 +5,9 @@ export default function Navbar() {
 		<nav>
 			<div>
 				<ul>
-					<a href=""><li>Home</li></a>
-					<a href=""><li>About</li></a>
-					<a href=""><li>Contact Us</li></a>
+					<a href="#"><li>Home</li></a>
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>Contact Us</li></a>
 				</ul>
 			</div>
 			<div>
@@ -15,9 +15,9 @@ export default function Navbar() {
 			</div>
 			<div>
 				<ul>
-					<a href=""><li>Blog</li></a>
-					<a href=""><li>Products</li></a>
-					<a href=""><li>Join Us</li></a>
+					<a href="#"><li>Blog</li></a>
+					<a href="#"><li>Products</li></a>
+					<a href="#"><li>Join Us</li></a>
 				</ul>
 			</div>
 			<div>
